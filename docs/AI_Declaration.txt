@@ -1,0 +1,69 @@
+============================================================
+           AI USAGE DECLARATION
+============================================================
+
+Name: Jotee Sarkar Joy
+Student ID: 22301001
+Assignment: Assignment 2 - Broadcast Receiver
+Date: 28 February, 2026
+
+------------------------------------------------------------
+1. AI TOOLS USED (check all that apply)
+------------------------------------------------------------
+[ ] None
+[x] ChatGPT
+[ ] GitHub Copilot
+[x] Google Gemini
+[x] Claude
+[ ] Cursor
+[x] Other: YouTube tutorials, Flutter official documentation, developer.android.com
+
+------------------------------------------------------------
+2. PURPOSE OF AI USE (check all that apply)
+------------------------------------------------------------
+[x] Learning/understanding concepts
+[x] Debugging my code
+[x] Generating code snippets
+[x] Writing text content
+[x] Design/styling ideas
+[x] Image generation
+[ ] Other: ________________
+
+------------------------------------------------------------
+3. DESCRIPTION OF AI USE
+------------------------------------------------------------
+This is my first time building a Flutter app. I primarily
+followed YouTube tutorials and the official Flutter
+documentation to learn the basics of Flutter development,
+including widgets, layouts, and state management.
+
+When I got stuck on certain concepts — such as how
+LayoutBuilder works for making responsive layouts, or why
+my layout was overflowing on smaller screens — I used AI
+(Google Gemini, Claude) as a learning aid to understand the concepts
+better and to help me debug those errors.
+
+I reviewed and understood all the code in my submission and
+can explain how each part works.
+
+------------------------------------------------------------
+4. AI-ASSISTED SECTIONS
+------------------------------------------------------------
+List specific files/sections where AI helped significantly:
+
+File: image_scale_page.dart    
+File: broadcast_receiver_page.dart    
+
+------------------------------------------------------------
+5. DECLARATION
+------------------------------------------------------------
+I declare that:
+- This disclosure is complete and accurate
+- I understand all code in my submission
+- I can explain and modify my work if asked
+- I take full responsibility for my submission
+
+Signature: Jotee Sarkar Joy 
+Date: 28 February, 2026
+
+============================================================
