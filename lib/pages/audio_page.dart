@@ -101,11 +101,7 @@ class _AudioPageState extends State<AudioPage> {
                       await _audioPlayer.pause();
                     } else {
                       // Example audio from internet
-                      await _audioPlayer.play(
-                        UrlSource(
-                          'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3',
-                        ),
-                      );
+                      await _audioPlayer.play(AssetSource('music.mp3'));
                     }
                   },
                 ),

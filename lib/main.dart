@@ -70,7 +70,7 @@ class _MainScreenState extends State<MainScreen> {
             const DrawerHeader(
               decoration: BoxDecoration(color: Colors.blue),
               child: Text(
-                'Assignment 2\nMenu',
+                'CSE489 Broadcast\nReceiver Menu',
                 style: TextStyle(color: Colors.white, fontSize: 24),
               ),
             ),

@@ -11,12 +11,8 @@ class ImageScalePage extends StatelessWidget {
           panEnabled: true, // Set to false to prevent panning.
           minScale: 0.5,
           maxScale: 4.0,
-          child: Image.network(
-            'https://picsum.photos/800/600',
-            loadingBuilder: (context, child, loadingProgress) {
-              if (loadingProgress == null) return child;
-              return const CircularProgressIndicator();
-            },
+          child: Image.asset(
+            'assets/image.png',
             errorBuilder: (context, error, stackTrace) {
               return const Icon(
                 Icons.broken_image,

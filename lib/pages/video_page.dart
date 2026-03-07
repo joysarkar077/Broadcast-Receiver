@@ -15,16 +15,11 @@ class _VideoPageState extends State<VideoPage> {
   void initState() {
     super.initState();
     // Use a sample video URL
-    _controller =
-        VideoPlayerController.networkUrl(
-            Uri.parse(
-              'https://flutter.github.io/assets-for-api-docs/assets/videos/butterfly.mp4',
-            ),
-          )
-          ..initialize().then((_) {
-            // Ensure the first frame is shown after the video is initialized
-            setState(() {});
-          });
+    _controller = VideoPlayerController.asset('assets/video.mp4')
+      ..initialize().then((_) {
+        // Ensure the first frame is shown after the video is initialized
+        setState(() {});
+      });
   }
 
   @override
